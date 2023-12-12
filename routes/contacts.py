@@ -16,5 +16,5 @@ def update():
 
 @contacts.route("/delete")
 def delete():
-    return "Delete a contact"
+    return "Delete a contacs"
 
