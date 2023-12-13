@@ -2,6 +2,7 @@ from flask import Blueprint, render_template, request
 from models.contact import Contact
 from utils.db import db
 
+
 contacts = Blueprint("contacts", __name__)
 
 @contacts.route("/")
